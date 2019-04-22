@@ -1,0 +1,243 @@
+$body-color: #e3e3e3;
+$link-color: #fff;
+$text-blue: #23ece5;
+$text-black: #565656;
+$btn-color: #c461ec;
+$purple-translucent: rgba(191, 26, 163, 0.5);
+$xs: 310px;
+$sm: 768px;
+$md: 992px;
+$lg: 1200px;
+
+body {
+  color: $body-color;
+  text-align: center;
+
+  h1 {
+    color: $text-blue;
+  }
+
+  .bg {
+    /* The image used */
+    background-image:
+      url("./../../public/swirl-1.svg"),
+      url("./../../public/4x/background@4x.png");
+    /* Full height */
+    height: fill-available;
+
+    /* Center and scale the image nicely */
+    background-position: bottom, center;
+    background-repeat: no-repeat;
+    background-size: contain, cover;
+  }
+
+  .section-one {
+    padding-top: 0px;
+  }
+
+  .section-three {
+    margin-top: 30%;
+    color: $text-black;
+  }
+
+  .section-four {
+    color: $text-black;
+    background-color: $body-color;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+
+  .section-five {
+    /* The image used */
+    background-color: #343434;
+    /* Full height */
+    height: fill-available;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .parallax {
+    /* The image used */
+    background-image: url("./../../public/bubles.svg");
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .nav-icon {
+    height: 38px;
+  }
+
+  section {
+    padding: 80px;
+    min-height: fill-available !important;
+  }
+
+  .btn-info {
+    background-color: $btn-color;
+    border-color: $btn-color;
+    border-radius: 999px;
+  }
+
+  .btn-outline-info {
+    border-color: $btn-color;
+    border-radius: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+  }
+
+  .btn-box {
+    background-color: $btn-color;
+    border-color: $btn-color;
+    border-radius: 0px;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+  }
+
+  .hr-purple {
+    border-top: 1px solid $purple-translucent;
+  }
+
+  .button-block-adjust {
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+
+  .button-block {
+    padding-top: 100px;
+  }
+
+  .pricing-table {
+    padding-top: 50px;
+  }
+
+  .card-fancy {
+    // background-image: url("./../../public/icons/pattern.svg");
+    background-color: rgba(255, 255, 255, 0.8);
+    background-repeat: repeat;
+    border-radius: 20px;
+    border-color: $purple-translucent;
+
+    li {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      color: #999;
+    }
+
+    .card-icon {
+      padding: 20px;
+
+      img {
+        max-width: 120px;
+        padding-bottom: 20px;
+      }
+    }
+  }
+
+  .no-padding {
+    padding: 0px !important;
+  }
+
+  .grid-img {
+    width: 100%;
+  }
+
+  .highlighted-card {
+  }
+
+  .img-frame {
+    margin-left: auto;
+    width: 50%!important;
+    margin-right: auto;
+    border: 4px solid #fff;
+  }
+
+  .slider-table {
+    margin-top: 80px;
+  }
+
+  // Extra small devices (portrait phones, less than 576px)
+  // No media query since this is the default in Bootstrap
+
+  // Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 0px) {
+    .bg {
+      /* The image used */
+      background-image:
+        url("./../../public/swirl-1.svg"),
+        url("./../../public/1x/background.png");
+    }
+
+    section {
+    }
+
+    .button-block-adjust {
+      margin-left: 0px;
+      margin-top: 20px;
+    }
+
+    .navbar-collapse .navbar-nav {
+      background-color: rgba(255,255,255,0.2);
+    }
+  }
+
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: $xs) {
+    .bg {
+      /* The image used */
+      background-image:
+        url("./../../public/swirl-1.svg"),
+        url("./../../public/1x/background.png");
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    .button-block-adjust {
+      margin-left: 20px;
+      margin-top: 0px;
+    }
+  }
+
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: $sm) {
+    .bg {
+      /* The image used */
+      background-image:
+        url("./../../public/swirl-1.svg"),
+        url("./../../public/2x/background@2x.png");
+    }
+
+    section {
+      padding: 40px;
+    }
+  }
+
+  // Large devices (desktops, 992px and up)
+  @media (min-width: $md) {
+    .bg {
+      /* The image used */
+      background-image:
+        url("./../../public/swirl-1.svg"),
+        url("./../../public/3x/background@3x.png");
+    }
+
+    section {
+      padding: 60px;
+    }
+
+    .navbar-collapse .navbar-nav {
+      background-color: rgba(255,255,255,0);
+    }
+  }
+}
